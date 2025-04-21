@@ -20,15 +20,6 @@ Upload court case summaries, contracts, or legal text files — ask natural lang
 ## 🧩 Features
 
 - 📂 Upload & process legal case files
--  CaseLawRAG/
-│
-├── data/               # Legal documents go here
-├── embeddings/         # FAISS vector DB saved here
-├── app.py              # Streamlit frontend
-├── rag_pipeline.py     # Backend logic (Load, Embed, Retrieve, Answer)
-├── requirements.txt    # Python packages
-└── README.md
-
 - 🔎 Embedding-based semantic search  
 - 🧠 GPT answers based on real documents  
 - ✅ Citations shown to reduce hallucinations  
@@ -38,8 +29,17 @@ Upload court case summaries, contracts, or legal text files — ask natural lang
 
 ## 🚀 Getting Started (Local)
 
-```bash
-git clone https://github.com/YOUR-USERNAME/CaseLawRAG.git
+bash
+CaseLawRAG/
+│
+├── data/               # Legal documents go here
+├── embeddings/         # FAISS vector DB saved here
+├── app.py              # Streamlit frontend
+├── rag_pipeline.py     # Backend logic (Load, Embed, Retrieve, Answer)
+├── requirements.txt    # Python packages
+└── README.md
+
+git clone https://github.com/Sagi-Vijay/CaseLawRAG.git
 cd CaseLawRAG
 pip install -r requirements.txt
 streamlit run app.py
