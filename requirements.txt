@@ -1,4 +1,4 @@
-"streamlit" 
-"langchain" 
-"openai" 
-"faiss-cpu" 
+streamlit
+langchain
+openai
+faiss-cpu
