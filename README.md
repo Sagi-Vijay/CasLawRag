@@ -4,6 +4,8 @@
 
 This project is a GenAI-powered Retrieval-Augmented Generation (RAG) application designed to help users search and summarize case law documents using Large Language Models (LLMs).
 
+https://sagi-vijay-caslawrag-app-qwxbcy.streamlit.app/
+
 ### 🔍 Features
 - Upload legal documents (PDF)
 - Ask questions and get accurate answers based on the documents
